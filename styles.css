@@ -1,0 +1,109 @@
+
+.container{
+    background-color: rgb(189, 182, 182);
+    width: 600px;
+    height: 600px;
+    margin: 20px auto;
+    box-shadow: 0px 0px 10px rgb(189, 171, 8);
+    border-radius: 5px;
+    padding: 10px 0;
+    
+
+}
+
+#section1{
+text-align: center;
+}
+
+#rock, #paper, #scissors{
+    background-color: rgb(189, 171, 8);
+    padding: 5px 10px;
+    font-weight: bold;
+    border: 3px solid ;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 15px;
+    
+}
+
+ #scissors:hover{
+    background-color: yellow;
+    box-shadow: 2px 5px 20px black;
+}
+#rock:hover{
+    background-color: yellow;
+    box-shadow: 2px 5px 20px black;
+}
+
+#paper:hover{
+    background-color: yellow;
+    box-shadow: 2px 5px 20px black;
+}
+
+#rock:active{
+    background-color: black;
+    color: white;
+}
+
+#paper:active{
+    background-color: black;
+    color: white;
+}
+
+#scissors:active{
+    background-color: black;
+    color: white;
+}
+
+#round{
+    text-align: center;
+    border: rgb(189, 171, 8) dotted;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#playAgain{
+    text-align: center;
+    margin: 20px;
+}
+#playAgainButton{
+    background-color: red;
+    color: aliceblue;
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#playAgainButton:hover{
+    box-shadow: 2px 5px 20px black;
+    background-color: rgb(146, 38, 38);
+}
+#playAgainButton:active{
+    background-color: black;
+}
+
+#scoreBord{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 5px 0;
+    border: 2px dotted rgb(189, 171, 8);
+    margin-bottom: 0;
+}
+
+.scoreBords{
+    background-color: black;
+}
+
+#finalSay{
+    color: white;
+    font-size: 25px;
+    margin-top: 0;
+    padding: 10px 0;
+    border: 2px dotted rgb(189, 171, 8);
+}
+
+footer{
+    text-align: center;
+}
