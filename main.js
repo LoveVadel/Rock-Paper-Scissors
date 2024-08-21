@@ -11,3 +11,15 @@ function getComputerChoice(){
         return "scissors"
     }
 }
+
+//  write a function that prompt human to enter their choice
+function getHumanChoice(){
+    let humChoice = prompt().toLowerCase()
+    if(humChoice === "rock" || humChoice === "paper" || humChoice === "scissors"){
+        return humChoice 
+    }
+    else{
+        return "Enter a valid choice"
+    }
+}
+
