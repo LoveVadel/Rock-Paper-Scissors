@@ -229,25 +229,25 @@ function rockCall(){
 
 function paperCall(){
     if(roundCount === 4){
-        playRound2(getRock(), getComputerChoice()) 
+        playRound2(getPaper(), getComputerChoice()) 
     }
     else if(roundCount === 5){
         console.log()
     }
     else{
-    playRound(getRock(), getComputerChoice()) 
+    playRound(getPaper(), getComputerChoice()) 
     }
 }
 
 function scissorsCall(){
     if(roundCount === 4){
-        playRound2(getRock(), getComputerChoice()) 
+        playRound2(getScissors(), getComputerChoice()) 
     }
     else if(roundCount === 5){
         console.log()
     }
     else{
-    playRound(getRock(), getComputerChoice()) 
+    playRound(getScissors(), getComputerChoice()) 
     }
 }
 
