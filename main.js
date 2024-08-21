@@ -65,3 +65,37 @@ function playRound(humanChoice, computerChoice){
      }
      
   }
+
+  /*write a function named playGame that calls playRound to play 5 rounds, 
+keeps track of the scores and declares a winner at the end.*/
+
+let getHumanChoice1 = getHumanChoice;
+let getHumanChoice2 = getHumanChoice;
+let getHumanChoice3 = getHumanChoice;
+let getHumanChoice4 = getHumanChoice;
+let getHumanChoice5 = getHumanChoice;
+
+function playGame(){
+    let round1 = playRound(getHumanChoice1(), getComputerChoice());
+    let round2 = playRound(getHumanChoice2(), getComputerChoice());
+    let round3 = playRound(getHumanChoice3(), getComputerChoice());
+    let round4 = playRound(getHumanChoice4(), getComputerChoice());
+    let round5 = playRound(getHumanChoice5(), getComputerChoice());
+
+    console.log(humanScore)
+    console.log(computerScore)
+
+    if(humanScore === computerScore){
+        return console.log("ITS A TIE PLAY AGAIN");
+    }
+    else if(humanScore > computerScore){
+        return console.log("YOU WIN ALL ROUNDS")
+    }
+    else {
+        return console.log("COMPUTER WIN ALL ROUNDS")
+    }
+}
+
+
+playGame()
+
